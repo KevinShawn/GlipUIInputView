@@ -1,0 +1,16 @@
+PODS:
+  - GlipUIInputView (0.1.0)
+
+DEPENDENCIES:
+  - GlipUIInputView (from `../`)
+
+EXTERNAL SOURCES:
+  GlipUIInputView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  GlipUIInputView: 4676ff990dcbed579ac062c093e60b6dd8cf5d08
+
+PODFILE CHECKSUM: 5f7daf4c2ba79893ad72fe1c96d82cb53898ae34
+
+COCOAPODS: 1.5.3

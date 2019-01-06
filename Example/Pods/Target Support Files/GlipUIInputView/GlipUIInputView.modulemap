@@ -1,0 +1,6 @@
+framework module GlipUIInputView {
+  umbrella header "GlipUIInputView-umbrella.h"
+
+  export *
+  module * { export * }
+}

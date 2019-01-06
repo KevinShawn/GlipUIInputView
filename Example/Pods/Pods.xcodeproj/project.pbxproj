@@ -1,0 +1,750 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2FCC9493E6765D631EC5823CBD0FC0DF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		3D6D47C470603F1E4E33B4BB2300E7E1 /* Pods-GlipUIInputView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 91AAF4AF6FF9E321F683718FE22F579F /* Pods-GlipUIInputView_Example-dummy.m */; };
+		3EB60FAE880D63A22D2CD12A230BE940 /* GlipUIInputView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C9A18EFD4A30A3B5D02FA3C3AB17FBC /* GlipUIInputView-dummy.m */; };
+		4148C97F384D8A9B24837FA545889FB7 /* Pods-GlipUIInputView_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 66C40C0AA6C84D12C38081B2949CF9FF /* Pods-GlipUIInputView_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6839EED9B2A5116F92E612705E641766 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		752DD1E42E89203F46FEBB7E99B938FA /* Pods-GlipUIInputView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 20DC87B167F82D05B70A22ED9DF37C71 /* Pods-GlipUIInputView_Tests-dummy.m */; };
+		76691BD7EAB602DFD5BD3854A7946F32 /* Pods-GlipUIInputView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 28F607D96618B21B662DCD814BC7D64F /* Pods-GlipUIInputView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		992141AFA2AC447AC228684AE6E24D24 /* GlipUIInputView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D4073BD8FD187E98776BB7F9342EBAA3 /* GlipUIInputView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AF7E4341EAA527418592B47651A95713 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		E81CE8E28B7E46D8960074D3058063A0 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8A9DFDB2E2D0ECA7EB3A4E722D1EF19 /* ReplaceMe.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1B0CE94FA2E542DB04E12B5CD5BAD9D1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2C832A26593B7D1B68D2686DD7FC6A9D;
+			remoteInfo = "Pods-GlipUIInputView_Example";
+		};
+		61C0052F0A6246523BFDC2EB3580C7E4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA77B978AECAB936F1C40304E9109622;
+			remoteInfo = GlipUIInputView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		059E6CC468E79F0B86A7B1F8E76E0C5C /* Pods-GlipUIInputView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GlipUIInputView_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		107305BB244E969C11AFC762FEB89379 /* Pods-GlipUIInputView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GlipUIInputView_Example-frameworks.sh"; sourceTree = "<group>"; };
+		1F1403DE9EE95CA20EF1DD41B4B48FB9 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		20DC87B167F82D05B70A22ED9DF37C71 /* Pods-GlipUIInputView_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GlipUIInputView_Tests-dummy.m"; sourceTree = "<group>"; };
+		241203819796229CC429316C2EC0AB02 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		28F607D96618B21B662DCD814BC7D64F /* Pods-GlipUIInputView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GlipUIInputView_Example-umbrella.h"; sourceTree = "<group>"; };
+		371B2A0E9457374B17F47951F7C1733E /* Pods-GlipUIInputView_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GlipUIInputView_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		55D0CEF3D2F886EF7196B330AE37B21F /* Pods-GlipUIInputView_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GlipUIInputView_Example-resources.sh"; sourceTree = "<group>"; };
+		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		601CF218D8D0E77D259EB3AB3980F2B7 /* Pods-GlipUIInputView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GlipUIInputView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		603E10F21A56DB7A60FF88CAF84D18A4 /* Pods-GlipUIInputView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GlipUIInputView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		66C40C0AA6C84D12C38081B2949CF9FF /* Pods-GlipUIInputView_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GlipUIInputView_Tests-umbrella.h"; sourceTree = "<group>"; };
+		6C203C0B67DCE54CB47DCD6472470E9B /* Pods-GlipUIInputView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GlipUIInputView_Example.release.xcconfig"; sourceTree = "<group>"; };
+		7ACFB0A46E3D71347D2614DFEC347AEA /* Pods-GlipUIInputView_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GlipUIInputView_Tests-resources.sh"; sourceTree = "<group>"; };
+		8104FA3BA5FE4D7A01B484A89B471989 /* GlipUIInputView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = GlipUIInputView.modulemap; sourceTree = "<group>"; };
+		8F1A3F822DF5080FCABD956DF4F822D6 /* Pods-GlipUIInputView_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GlipUIInputView_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		91AAF4AF6FF9E321F683718FE22F579F /* Pods-GlipUIInputView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GlipUIInputView_Example-dummy.m"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9C9A18EFD4A30A3B5D02FA3C3AB17FBC /* GlipUIInputView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GlipUIInputView-dummy.m"; sourceTree = "<group>"; };
+		9E0CC755ABDEEEB409A0C4D3313008AD /* GlipUIInputView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = GlipUIInputView.framework; path = GlipUIInputView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A00CA1683CD5BE8C1EC5A5AE394B7295 /* Pods-GlipUIInputView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-GlipUIInputView_Example.modulemap"; sourceTree = "<group>"; };
+		A430B0B12345F3287426508AF84EF7BF /* GlipUIInputView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GlipUIInputView.xcconfig; sourceTree = "<group>"; };
+		B96FD998751BAC50A48F790AA32DC242 /* Pods-GlipUIInputView_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GlipUIInputView_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		C5B5696DF5D3FE3E5987B1FD3B2CCED3 /* GlipUIInputView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = GlipUIInputView.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		D4073BD8FD187E98776BB7F9342EBAA3 /* GlipUIInputView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GlipUIInputView-umbrella.h"; sourceTree = "<group>"; };
+		D82720DB0C0E19540C66BECBE6A3602E /* Pods_GlipUIInputView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_GlipUIInputView_Example.framework; path = "Pods-GlipUIInputView_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDC18D017D78A048850548698A524E65 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DFDCBFAAA636D547CAD57CB207CD36E7 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		E4F332C70A176EB08DE13F876E25B760 /* Pods-GlipUIInputView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GlipUIInputView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		E5B3BE79B3FF3DF7F008163B626F3A9C /* Pods-GlipUIInputView_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-GlipUIInputView_Tests.modulemap"; sourceTree = "<group>"; };
+		E8A9DFDB2E2D0ECA7EB3A4E722D1EF19 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = GlipUIInputView/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		EE40F7F377997F0205C1889F646007BA /* GlipUIInputView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GlipUIInputView-prefix.pch"; sourceTree = "<group>"; };
+		EF72CE82D0D51106B05A0D65DFA6B8DD /* Pods_GlipUIInputView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_GlipUIInputView_Tests.framework; path = "Pods-GlipUIInputView_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0170F29A4020086AFDFE1C02309D87D /* Pods-GlipUIInputView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GlipUIInputView_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		FF86AF6B0428F502B04E701864F63F12 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		065AB8FCAD212E4FDDE120230BCDCC91 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6839EED9B2A5116F92E612705E641766 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A58BB96219577713B0B745AD682FF424 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF7E4341EAA527418592B47651A95713 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A80A6069565E471B4905A0E8CF76866F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FCC9493E6765D631EC5823CBD0FC0DF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0E14408BD7A5004081B33DFBFC15A57B /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6CD6552F6F6AA5DDA2D191971C36A5A6 /* GlipUIInputView */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		20E47CAF409126D453DBEBAEE8572C59 /* Pods-GlipUIInputView_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				241203819796229CC429316C2EC0AB02 /* Info.plist */,
+				E5B3BE79B3FF3DF7F008163B626F3A9C /* Pods-GlipUIInputView_Tests.modulemap */,
+				8F1A3F822DF5080FCABD956DF4F822D6 /* Pods-GlipUIInputView_Tests-acknowledgements.markdown */,
+				371B2A0E9457374B17F47951F7C1733E /* Pods-GlipUIInputView_Tests-acknowledgements.plist */,
+				20DC87B167F82D05B70A22ED9DF37C71 /* Pods-GlipUIInputView_Tests-dummy.m */,
+				B96FD998751BAC50A48F790AA32DC242 /* Pods-GlipUIInputView_Tests-frameworks.sh */,
+				7ACFB0A46E3D71347D2614DFEC347AEA /* Pods-GlipUIInputView_Tests-resources.sh */,
+				66C40C0AA6C84D12C38081B2949CF9FF /* Pods-GlipUIInputView_Tests-umbrella.h */,
+				601CF218D8D0E77D259EB3AB3980F2B7 /* Pods-GlipUIInputView_Tests.debug.xcconfig */,
+				059E6CC468E79F0B86A7B1F8E76E0C5C /* Pods-GlipUIInputView_Tests.release.xcconfig */,
+			);
+			name = "Pods-GlipUIInputView_Tests";
+			path = "Target Support Files/Pods-GlipUIInputView_Tests";
+			sourceTree = "<group>";
+		};
+		3A9D6580368E62894EEC2B664A092A52 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				C5B5696DF5D3FE3E5987B1FD3B2CCED3 /* GlipUIInputView.podspec */,
+				DFDCBFAAA636D547CAD57CB207CD36E7 /* LICENSE */,
+				FF86AF6B0428F502B04E701864F63F12 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		49A04F1DC12113BD432BA2697E062743 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9E0CC755ABDEEEB409A0C4D3313008AD /* GlipUIInputView.framework */,
+				D82720DB0C0E19540C66BECBE6A3602E /* Pods_GlipUIInputView_Example.framework */,
+				EF72CE82D0D51106B05A0D65DFA6B8DD /* Pods_GlipUIInputView_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5E0D919E635D23B70123790B8308F8EF /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		6CD6552F6F6AA5DDA2D191971C36A5A6 /* GlipUIInputView */ = {
+			isa = PBXGroup;
+			children = (
+				E8A9DFDB2E2D0ECA7EB3A4E722D1EF19 /* ReplaceMe.swift */,
+				3A9D6580368E62894EEC2B664A092A52 /* Pod */,
+				BA25798D3D3BB42F5E2006DDCCF408AA /* Support Files */,
+			);
+			name = GlipUIInputView;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				0E14408BD7A5004081B33DFBFC15A57B /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				49A04F1DC12113BD432BA2697E062743 /* Products */,
+				B228AEC11B1FF68767F8266AA124AA70 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		B228AEC11B1FF68767F8266AA124AA70 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D4CE115239D2150058BD244F0DC37B94 /* Pods-GlipUIInputView_Example */,
+				20E47CAF409126D453DBEBAEE8572C59 /* Pods-GlipUIInputView_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		BA25798D3D3BB42F5E2006DDCCF408AA /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8104FA3BA5FE4D7A01B484A89B471989 /* GlipUIInputView.modulemap */,
+				A430B0B12345F3287426508AF84EF7BF /* GlipUIInputView.xcconfig */,
+				9C9A18EFD4A30A3B5D02FA3C3AB17FBC /* GlipUIInputView-dummy.m */,
+				EE40F7F377997F0205C1889F646007BA /* GlipUIInputView-prefix.pch */,
+				D4073BD8FD187E98776BB7F9342EBAA3 /* GlipUIInputView-umbrella.h */,
+				1F1403DE9EE95CA20EF1DD41B4B48FB9 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/GlipUIInputView";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5E0D919E635D23B70123790B8308F8EF /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D4CE115239D2150058BD244F0DC37B94 /* Pods-GlipUIInputView_Example */ = {
+			isa = PBXGroup;
+			children = (
+				DDC18D017D78A048850548698A524E65 /* Info.plist */,
+				A00CA1683CD5BE8C1EC5A5AE394B7295 /* Pods-GlipUIInputView_Example.modulemap */,
+				603E10F21A56DB7A60FF88CAF84D18A4 /* Pods-GlipUIInputView_Example-acknowledgements.markdown */,
+				E4F332C70A176EB08DE13F876E25B760 /* Pods-GlipUIInputView_Example-acknowledgements.plist */,
+				91AAF4AF6FF9E321F683718FE22F579F /* Pods-GlipUIInputView_Example-dummy.m */,
+				107305BB244E969C11AFC762FEB89379 /* Pods-GlipUIInputView_Example-frameworks.sh */,
+				55D0CEF3D2F886EF7196B330AE37B21F /* Pods-GlipUIInputView_Example-resources.sh */,
+				28F607D96618B21B662DCD814BC7D64F /* Pods-GlipUIInputView_Example-umbrella.h */,
+				F0170F29A4020086AFDFE1C02309D87D /* Pods-GlipUIInputView_Example.debug.xcconfig */,
+				6C203C0B67DCE54CB47DCD6472470E9B /* Pods-GlipUIInputView_Example.release.xcconfig */,
+			);
+			name = "Pods-GlipUIInputView_Example";
+			path = "Target Support Files/Pods-GlipUIInputView_Example";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		20C6C90DE0888193E94EA561F8A90096 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				992141AFA2AC447AC228684AE6E24D24 /* GlipUIInputView-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7136DA2E9DAE707E9493D543A04E51E2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4148C97F384D8A9B24837FA545889FB7 /* Pods-GlipUIInputView_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F41004A66B2F024A1C8567483A1BB3B3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76691BD7EAB602DFD5BD3854A7946F32 /* Pods-GlipUIInputView_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		2C832A26593B7D1B68D2686DD7FC6A9D /* Pods-GlipUIInputView_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 92FA15F04A4E27292A8DA655A14E1168 /* Build configuration list for PBXNativeTarget "Pods-GlipUIInputView_Example" */;
+			buildPhases = (
+				E179D719A7D655DF445A92966229C867 /* Sources */,
+				A58BB96219577713B0B745AD682FF424 /* Frameworks */,
+				F41004A66B2F024A1C8567483A1BB3B3 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				02F95415F918C7B6D1181B29FB87B79F /* PBXTargetDependency */,
+			);
+			name = "Pods-GlipUIInputView_Example";
+			productName = "Pods-GlipUIInputView_Example";
+			productReference = D82720DB0C0E19540C66BECBE6A3602E /* Pods_GlipUIInputView_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		658E5C004DBA4724C5758ADDDEB16214 /* Pods-GlipUIInputView_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B1E09141BC7057D283FF7194AEB9EB6 /* Build configuration list for PBXNativeTarget "Pods-GlipUIInputView_Tests" */;
+			buildPhases = (
+				F1DADCB781379684F11B9A084757A7F8 /* Sources */,
+				065AB8FCAD212E4FDDE120230BCDCC91 /* Frameworks */,
+				7136DA2E9DAE707E9493D543A04E51E2 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				70F9400C8F012987957D285138B74704 /* PBXTargetDependency */,
+			);
+			name = "Pods-GlipUIInputView_Tests";
+			productName = "Pods-GlipUIInputView_Tests";
+			productReference = EF72CE82D0D51106B05A0D65DFA6B8DD /* Pods_GlipUIInputView_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		FA77B978AECAB936F1C40304E9109622 /* GlipUIInputView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4805AB3881FB7D381DA50C74E8A90AB1 /* Build configuration list for PBXNativeTarget "GlipUIInputView" */;
+			buildPhases = (
+				C0DB6E550DB1CAEB0846622662B07EED /* Sources */,
+				A80A6069565E471B4905A0E8CF76866F /* Frameworks */,
+				20C6C90DE0888193E94EA561F8A90096 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GlipUIInputView;
+			productName = GlipUIInputView;
+			productReference = 9E0CC755ABDEEEB409A0C4D3313008AD /* GlipUIInputView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 49A04F1DC12113BD432BA2697E062743 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FA77B978AECAB936F1C40304E9109622 /* GlipUIInputView */,
+				2C832A26593B7D1B68D2686DD7FC6A9D /* Pods-GlipUIInputView_Example */,
+				658E5C004DBA4724C5758ADDDEB16214 /* Pods-GlipUIInputView_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C0DB6E550DB1CAEB0846622662B07EED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3EB60FAE880D63A22D2CD12A230BE940 /* GlipUIInputView-dummy.m in Sources */,
+				E81CE8E28B7E46D8960074D3058063A0 /* ReplaceMe.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E179D719A7D655DF445A92966229C867 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D6D47C470603F1E4E33B4BB2300E7E1 /* Pods-GlipUIInputView_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1DADCB781379684F11B9A084757A7F8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				752DD1E42E89203F46FEBB7E99B938FA /* Pods-GlipUIInputView_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		02F95415F918C7B6D1181B29FB87B79F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GlipUIInputView;
+			target = FA77B978AECAB936F1C40304E9109622 /* GlipUIInputView */;
+			targetProxy = 61C0052F0A6246523BFDC2EB3580C7E4 /* PBXContainerItemProxy */;
+		};
+		70F9400C8F012987957D285138B74704 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-GlipUIInputView_Example";
+			target = 2C832A26593B7D1B68D2686DD7FC6A9D /* Pods-GlipUIInputView_Example */;
+			targetProxy = 1B0CE94FA2E542DB04E12B5CD5BAD9D1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		264EEFFA4179B6D31009E769262A273E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 601CF218D8D0E77D259EB3AB3980F2B7 /* Pods-GlipUIInputView_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-GlipUIInputView_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GlipUIInputView_Tests/Pods-GlipUIInputView_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		75524CE46525F913FE02E77BA9DABF1D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 059E6CC468E79F0B86A7B1F8E76E0C5C /* Pods-GlipUIInputView_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-GlipUIInputView_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GlipUIInputView_Tests/Pods-GlipUIInputView_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		79234715A09F2D9B5984002B90A59817 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A430B0B12345F3287426508AF84EF7BF /* GlipUIInputView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/GlipUIInputView/GlipUIInputView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GlipUIInputView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/GlipUIInputView/GlipUIInputView.modulemap";
+				PRODUCT_MODULE_NAME = GlipUIInputView;
+				PRODUCT_NAME = GlipUIInputView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8B33C5230DE4A9DFA6D8F46505DD7AF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		B42B54097A876E8A982CBF5DAA91B1AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		C4640EDCB2D305646CDC3D5C6BE8EFDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6C203C0B67DCE54CB47DCD6472470E9B /* Pods-GlipUIInputView_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-GlipUIInputView_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GlipUIInputView_Example/Pods-GlipUIInputView_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		EC66CDABDA4883CB2DF7097DA986DF26 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F0170F29A4020086AFDFE1C02309D87D /* Pods-GlipUIInputView_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-GlipUIInputView_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GlipUIInputView_Example/Pods-GlipUIInputView_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F064A0C3FFEE018E470B609E6CE04584 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A430B0B12345F3287426508AF84EF7BF /* GlipUIInputView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/GlipUIInputView/GlipUIInputView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GlipUIInputView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/GlipUIInputView/GlipUIInputView.modulemap";
+				PRODUCT_MODULE_NAME = GlipUIInputView;
+				PRODUCT_NAME = GlipUIInputView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B33C5230DE4A9DFA6D8F46505DD7AF7 /* Debug */,
+				B42B54097A876E8A982CBF5DAA91B1AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3B1E09141BC7057D283FF7194AEB9EB6 /* Build configuration list for PBXNativeTarget "Pods-GlipUIInputView_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				264EEFFA4179B6D31009E769262A273E /* Debug */,
+				75524CE46525F913FE02E77BA9DABF1D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4805AB3881FB7D381DA50C74E8A90AB1 /* Build configuration list for PBXNativeTarget "GlipUIInputView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F064A0C3FFEE018E470B609E6CE04584 /* Debug */,
+				79234715A09F2D9B5984002B90A59817 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		92FA15F04A4E27292A8DA655A14E1168 /* Build configuration list for PBXNativeTarget "Pods-GlipUIInputView_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC66CDABDA4883CB2DF7097DA986DF26 /* Debug */,
+				C4640EDCB2D305646CDC3D5C6BE8EFDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
