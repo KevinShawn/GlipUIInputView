@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'GlipUIInputView_Example' do
+  pod 'GlipUIInputView', :path => '../'
+
+  target 'GlipUIInputView_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
